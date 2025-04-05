@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: telegram-signal-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: TOKEN
+        value: 7992107267:AAEnr1zJC_vITRbC-WjuV6llrLMIQ1FLPSs
+      - key: CHAT_ID
+        value: 7992107267
